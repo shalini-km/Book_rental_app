@@ -1,0 +1,345 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bookcave"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:7:5-79
+12-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:25:5-68
+13-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:25:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:9:5-58:19
+17        android:allowBackup="true"
+17-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/3ec4a919a4a852817eb0bd6abe47cd00/core-1.5.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+19-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:11:9-34
+20        android:icon="@mipmap/bookcavelogo"
+20-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:12:9-44
+21        android:label="@string/app_name"
+21-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/bookcavelogo_round"
+22-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:14:9-55
+23        android:supportsRtl="true"
+23-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:15:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:16:9-40
+26        android:usesCleartextTraffic="true" >
+26-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:17:9-44
+27        <activity android:name="com.example.bookcave.RentBook" />
+27-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:20:9-55
+27-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:20:19-43
+28        <activity android:name="com.example.bookcave.ViewOrderCustomer" />
+28-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:21:9-55
+28-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:21:19-52
+29        <activity android:name="com.example.bookcave.UpdateOrder" />
+29-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:22:9-49
+29-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:22:19-46
+30        <activity android:name="com.example.bookcave.Placed" />
+30-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:23:9-44
+30-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:23:19-41
+31        <activity android:name="com.example.bookcave.ChangeAddress" />
+31-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:24:9-51
+31-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:24:19-48
+32        <activity android:name="com.example.bookcave.BuyBook" />
+32-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:25:9-45
+32-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:25:19-42
+33        <activity android:name="com.example.bookcave.BookInfoOrder" />
+33-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:26:9-51
+33-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:26:19-48
+34        <activity android:name="com.example.bookcave.BookInfo" />
+34-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:27:9-46
+34-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:27:19-43
+35        <activity android:name="com.example.bookcave.extras.PreviewBook" />
+35-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:28:9-56
+35-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:28:19-53
+36        <activity android:name="com.example.bookcave.AddBook" />
+36-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:29:9-45
+36-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:29:19-42
+37        <activity android:name="com.example.bookcave.profile.AboutApp" />
+37-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:30:9-54
+37-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:30:19-51
+38        <activity
+38-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:31:9-34:59
+39            android:name="com.example.bookcave.HomeSeller"
+39-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:32:13-39
+40            android:label="@string/title_activity_home_seller"
+40-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:33:13-63
+41            android:theme="@style/AppTheme.NoActionBar" />
+41-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:34:13-56
+42        <activity android:name="com.example.bookcave.profile.ContactDeveloper" />
+42-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:35:9-62
+42-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:35:19-59
+43        <activity android:name="com.example.bookcave.profile.PaymentHistoryC" />
+43-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:36:9-61
+43-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:36:19-58
+44        <activity android:name="com.example.bookcave.profile.OrderHistoryC" />
+44-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:37:9-59
+44-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:37:19-56
+45        <activity android:name="com.example.bookcave.profile.Favourites" />
+45-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:38:9-56
+45-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:38:19-53
+46        <activity android:name="com.example.bookcave.profile.ProfileCustomer" />
+46-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:39:9-61
+46-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:39:19-58
+47        <activity
+47-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:40:9-42:68
+48            android:name="com.example.bookcave.HomeCustomer"
+48-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:41:13-41
+49            android:label="@string/title_activity_home_customer" />
+49-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:42:13-65
+50        <activity android:name="com.example.bookcave.CreateAccountCustomer" />
+50-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:43:9-59
+50-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:43:19-56
+51        <activity android:name="com.example.bookcave.CreatAccountSeller" />
+51-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:44:9-56
+51-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:44:19-53
+52        <activity android:name="com.example.bookcave.forgot_password" />
+52-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:45:9-53
+52-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:45:19-50
+53        <activity android:name="com.example.bookcave.CustomerLogin" />
+53-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:46:9-51
+53-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:46:19-48
+54        <activity android:name="com.example.bookcave.MainActivity" >
+54-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:47:9-53:20
+54-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:47:19-47
+55            <intent-filter>
+55-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:48:13-52:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:49:17-69
+56-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:49:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:51:17-77
+58-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:51:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <meta-data
+62-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:55:9-57:57
+63            android:name="preloaded_fonts"
+63-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:56:13-43
+64            android:resource="@array/preloaded_fonts" />
+64-->/Users/sreeram-10645/Desktop/BookCave/app/src/main/AndroidManifest.xml:57:13-54
+65
+66        <activity
+66-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:27:9-44:20
+67            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+67-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:28:13-80
+68            android:excludeFromRecents="true"
+68-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:29:13-46
+69            android:exported="true"
+69-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:30:13-36
+70            android:launchMode="singleTask"
+70-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:31:13-44
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+71-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:32:13-72
+72            <intent-filter>
+72-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:33:13-43:29
+73                <action android:name="android.intent.action.VIEW" />
+73-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:34:17-69
+73-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:34:25-66
+74
+75                <category android:name="android.intent.category.DEFAULT" />
+75-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:36:17-76
+75-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:36:27-73
+76                <category android:name="android.intent.category.BROWSABLE" />
+76-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:37:17-78
+76-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:37:27-75
+77
+78                <data
+78-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:39:17-42:51
+79                    android:host="firebase.auth"
+79-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:40:21-49
+80                    android:path="/"
+80-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:41:21-37
+81                    android:scheme="genericidp" />
+81-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:42:21-48
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:45:9-62:20
+85            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+85-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:46:13-79
+86            android:excludeFromRecents="true"
+86-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:47:13-46
+87            android:exported="true"
+87-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:48:13-36
+88            android:launchMode="singleTask"
+88-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:49:13-44
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+89-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:50:13-72
+90            <intent-filter>
+90-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:51:13-61:29
+91                <action android:name="android.intent.action.VIEW" />
+91-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:34:17-69
+91-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:34:25-66
+92
+93                <category android:name="android.intent.category.DEFAULT" />
+93-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:36:17-76
+93-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:36:27-73
+94                <category android:name="android.intent.category.BROWSABLE" />
+94-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:37:17-78
+94-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:37:27-75
+95
+96                <data
+96-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:39:17-42:51
+97                    android:host="firebase.auth"
+97-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:40:21-49
+98                    android:path="/"
+98-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:41:21-37
+99                    android:scheme="recaptcha" />
+99-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:42:21-48
+100            </intent-filter>
+101        </activity>
+102
+103        <service
+103-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:64:9-73:19
+104            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+104-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:65:13-101
+105            android:enabled="true"
+105-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:66:13-35
+106            android:exported="false" >
+106-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:67:13-37
+107            <intent-filter>
+107-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:68:13-72:29
+108                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+108-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:69:17-89
+108-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:69:25-86
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:36:17-76
+110-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:36:27-73
+111            </intent-filter>
+112        </service>
+113        <service
+113-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:74:9-80:19
+114            android:name="com.google.firebase.components.ComponentDiscoveryService"
+114-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:75:13-84
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.0.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/ecb672209194acad27866cb614d6c07c/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+116            android:exported="false" >
+116-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:76:13-37
+117            <meta-data
+117-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:77:13-79:85
+118                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+118-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:78:17-109
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-auth:20.0.4] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/7c4b7bf878a0cb58984abe15f4564799/jetified-firebase-auth-20.0.4/AndroidManifest.xml:79:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-firestore:23.0.1] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/62b1ec9c1f5be0b712b58a7cceb9e7c7/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:20:13-22:85
+121                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+121-->[com.google.firebase:firebase-firestore:23.0.1] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/62b1ec9c1f5be0b712b58a7cceb9e7c7/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:21:17-111
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-firestore:23.0.1] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/62b1ec9c1f5be0b712b58a7cceb9e7c7/jetified-firebase-firestore-23.0.1/AndroidManifest.xml:22:17-82
+123            <meta-data
+123-->[com.google.android.gms:play-services-measurement-api:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/45711b2741317fb26b1043919e54b65b/jetified-play-services-measurement-api-18.0.3/AndroidManifest.xml:30:13-32:85
+124                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+124-->[com.google.android.gms:play-services-measurement-api:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/45711b2741317fb26b1043919e54b65b/jetified-play-services-measurement-api-18.0.3/AndroidManifest.xml:31:17-139
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.android.gms:play-services-measurement-api:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/45711b2741317fb26b1043919e54b65b/jetified-play-services-measurement-api-18.0.3/AndroidManifest.xml:32:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-installations:16.3.5] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/633b133f42b636b6a28c359728b674af/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+127                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+127-->[com.google.firebase:firebase-installations:16.3.5] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/633b133f42b636b6a28c359728b674af/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-installations:16.3.5] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/633b133f42b636b6a28c359728b674af/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+129        </service>
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:17.1.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/b4f07f32e4554f54f8ae4a9ce2b5d984/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:17.1.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/b4f07f32e4554f54f8ae4a9ce2b5d984/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:17.1.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/b4f07f32e4554f54f8ae4a9ce2b5d984/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:17.1.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/b4f07f32e4554f54f8ae4a9ce2b5d984/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+135
+136        <receiver
+136-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:29:9-33:20
+137            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+137-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:30:13-85
+138            android:enabled="true"
+138-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:31:13-35
+139            android:exported="false" >
+139-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:32:13-37
+140        </receiver>
+141
+142        <service
+142-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:35:9-38:40
+143            android:name="com.google.android.gms.measurement.AppMeasurementService"
+143-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:36:13-84
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:37:13-35
+145            android:exported="false" />
+145-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:38:13-37
+146        <service
+146-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:39:9-43:72
+147            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+147-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:40:13-87
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:41:13-35
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:42:13-37
+150            android:permission="android.permission.BIND_JOB_SERVICE" />
+150-->[com.google.android.gms:play-services-measurement:18.0.3] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/1a6f26611821164cbc58433a40210e03/jetified-play-services-measurement-18.0.3/AndroidManifest.xml:43:13-69
+151
+152        <provider
+152-->[com.google.firebase:firebase-common:20.0.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/ecb672209194acad27866cb614d6c07c/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+153            android:name="com.google.firebase.provider.FirebaseInitProvider"
+153-->[com.google.firebase:firebase-common:20.0.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/ecb672209194acad27866cb614d6c07c/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+154            android:authorities="com.example.bookcave.firebaseinitprovider"
+154-->[com.google.firebase:firebase-common:20.0.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/ecb672209194acad27866cb614d6c07c/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+155            android:directBootAware="true"
+155-->[com.google.firebase:firebase-common:20.0.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/ecb672209194acad27866cb614d6c07c/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+156            android:exported="false"
+156-->[com.google.firebase:firebase-common:20.0.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/ecb672209194acad27866cb614d6c07c/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+157            android:initOrder="100" />
+157-->[com.google.firebase:firebase-common:20.0.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/ecb672209194acad27866cb614d6c07c/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+158
+159        <meta-data
+159-->[com.google.android.gms:play-services-basement:17.1.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/80c0bace7931a1d0598ee7c9ea4f6198/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+160            android:name="com.google.android.gms.version"
+160-->[com.google.android.gms:play-services-basement:17.1.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/80c0bace7931a1d0598ee7c9ea4f6198/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+161            android:value="@integer/google_play_services_version" />
+161-->[com.google.android.gms:play-services-basement:17.1.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/80c0bace7931a1d0598ee7c9ea4f6198/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+162
+163        <provider
+163-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/5ae843b11afb108c66ed500e6a4889fa/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+164            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+164-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/5ae843b11afb108c66ed500e6a4889fa/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+165            android:authorities="com.example.bookcave.lifecycle-process"
+165-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/5ae843b11afb108c66ed500e6a4889fa/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+166            android:exported="false"
+166-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/5ae843b11afb108c66ed500e6a4889fa/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+167            android:multiprocess="true" />
+167-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/5ae843b11afb108c66ed500e6a4889fa/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+168        <provider
+168-->[com.squareup.picasso:picasso:2.71828] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/d23e21bdf396753ebb5e818abdb05298/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+169            android:name="com.squareup.picasso.PicassoProvider"
+169-->[com.squareup.picasso:picasso:2.71828] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/d23e21bdf396753ebb5e818abdb05298/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+170            android:authorities="com.example.bookcave.com.squareup.picasso"
+170-->[com.squareup.picasso:picasso:2.71828] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/d23e21bdf396753ebb5e818abdb05298/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+171            android:exported="false" />
+171-->[com.squareup.picasso:picasso:2.71828] /Users/sreeram-10645/.gradle/caches/transforms-2/files-2.1/d23e21bdf396753ebb5e818abdb05298/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+172    </application>
+173
+174</manifest>
